@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "homepage": "https://sabasaba21.github.io/SEG3125_project2",
+  "homepage": "https://sabasaba21.github.io/SEG3125_project2_final",
   "private": true,
   "dependencies": {
     "@react-google-maps/api": "^2.19.3",
