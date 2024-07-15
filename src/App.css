@@ -1,0 +1,248 @@
+.App {
+
+  margin: 0;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif !important;
+
+}
+
+/* Style for the logo */
+.App-logo {
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically */
+  padding: 10px; /* Add padding around the logo */
+  height: 180px;
+  margin-right: 10px;
+}
+
+
+
+.App-header {
+
+  position: flex;
+    top: 0 !important;
+    left: 0!important;
+    width: 100%;
+    z-index: 1000; 
+
+  
+   
+}
+
+.navbar-nav {
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin: 0 15px; 
+
+  
+}
+
+.nav-link.nav-item{
+  margin: 0 40px;
+  color: white;
+  
+}
+
+.navbar.bg-body-tertiary {
+  background-color: #007bff !important;
+  width: 100%;
+  
+  
+}
+
+
+.Header-top{
+  flex: 1;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20px; /* Add horizontal margin to space out the nav items */
+
+
+}
+
+.switch-lang-icon{
+  height: 15px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+
+
+
+
+.sidebar {
+  padding: 20px;
+  border-right: 1px solid black;
+  width: fit-content;
+  position: sticky;
+  left: 0;
+  height: 100%; 
+  
+  background-color: #FAF9F6;
+  box-shadow: 5px 1px lightblue;
+}
+
+.faceted-search {
+  list-style-type: none;
+  /* padding: 0; */
+  margin-top: 40px !important;
+  margin-bottom: 40px !important;
+  margin-left: 0px !important;
+  
+}
+
+.faceted-search-item {
+  margin-bottom: 5rem !important;
+}
+
+h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: bold !important;
+}
+
+p {
+  margin: 0.5rem 0 0;
+  white-space: pre-line;
+}
+
+
+.footer {
+  background-color: #f8f9fa; /* Choose your preferred background color */
+  padding: 20px 0;
+  text-align: center;
+  border-top: 60px solid #007bff;;
+ 
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.footer-logo  {
+  /* width: 10px;  */
+  display: flex; 
+  /* align-items: center;  */
+  margin-left: 200px;
+}
+
+.footer-logo img {
+  width: 200px; 
+  display: flex; 
+  margin-bottom: 2rem;
+  /* align-items: center;  */
+  /* margin-left: 200px; */
+}
+
+.footer-social,
+.footer-contact {
+  flex: 1;
+  margin: 0 10px;
+  text-align: left;
+}
+
+.social-icons {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-icons li {
+  margin-bottom: 10px;
+}
+
+.social-icons li a {
+  color: #333;
+  text-decoration: none;
+}
+
+.social-icons li a:hover {
+  text-decoration: underline;
+}
+
+.round-img{
+  width: 100px!important;
+  height: 100px!important;
+  object-fit: cover !important;
+  border-radius: 50% !important; 
+  margin-block-start: 2rem !important;
+  margin-block-end: 2rem;
+  margin-left:30%;
+  /* left: 10rem !important; */
+  display: flex !important;
+  justify-content: center !important; 
+  
+}
+
+
+.my-card{
+  margin: 40px;
+  width: 20rem;
+  box-shadow: 5px 5px lightgrey;
+}
+
+.services-list{
+margin-top: 5rem !important;
+display: flex !important;
+justify-content: center !important; 
+flex-wrap: wrap !important; 
+}
+
+.card-title{
+  font-weight: bolder !important;
+  text-align: center;
+
+
+}
+
+.contact-btn, donate-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.help-buttons {
+  display: flex;
+  justify-content: center; 
+  gap: 50px; 
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  
+}
+
+.take-action h3{
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.contact-container{
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+
+  padding: 40px 60px;
+  background-color: lightgrey;
+
+}
+
+.text-center-container {
+  text-align: center;
+  margin: 5rem 3rem;
+  
+}
+
+.text-center-container p,
+.text-center-container h2 {
+  margin: 0 auto;
+}
