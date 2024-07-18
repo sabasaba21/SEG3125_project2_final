@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/SEG3125_project2_final/static/css/main.9feba796.css",
-    "main.js": "/SEG3125_project2_final/static/js/main.cfa24cae.js",
+    "main.css": "/SEG3125_project2_final/static/css/main.6ba97005.css",
+    "main.js": "/SEG3125_project2_final/static/js/main.28323535.js",
     "static/js/453.ed3810f9.chunk.js": "/SEG3125_project2_final/static/js/453.ed3810f9.chunk.js",
+    "static/media/card_hint.png": "/SEG3125_project2_final/static/media/card_hint.96aa5f4554eee8379a17.png",
     "static/media/landing_page_img.webp": "/SEG3125_project2_final/static/media/landing_page_img.ad018ec868552462d47f.webp",
     "static/media/university_img.webp": "/SEG3125_project2_final/static/media/university_img.121d5959c6dbee399d4c.webp",
     "static/media/college_img.webp": "/SEG3125_project2_final/static/media/college_img.63743e85636a60a39025.webp",
     "static/media/oruj_logo.jpeg": "/SEG3125_project2_final/static/media/oruj_logo.55c2f6544dba5e3f26dd.jpeg",
     "static/media/primary_edu_img.webp": "/SEG3125_project2_final/static/media/primary_edu_img.f936d6f3971be222fe50.webp",
     "index.html": "/SEG3125_project2_final/index.html",
-    "main.9feba796.css.map": "/SEG3125_project2_final/static/css/main.9feba796.css.map",
-    "main.cfa24cae.js.map": "/SEG3125_project2_final/static/js/main.cfa24cae.js.map",
+    "main.6ba97005.css.map": "/SEG3125_project2_final/static/css/main.6ba97005.css.map",
+    "main.28323535.js.map": "/SEG3125_project2_final/static/js/main.28323535.js.map",
     "453.ed3810f9.chunk.js.map": "/SEG3125_project2_final/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9feba796.css",
-    "static/js/main.cfa24cae.js"
+    "static/css/main.6ba97005.css",
+    "static/js/main.28323535.js"
   ]
 }
