@@ -8,14 +8,6 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import logo from './assets/oruj_logo.jpeg';
 import dari_icon from './assets/dari_icon.png';
 
-import Home from './Home';
-import AboutOruj from './AboutOruj';
-import WhatWeDo from './WhatWeDo';
-import TakeAction from './TakeAction';
-import Contact from './Contact';
-import Donate from './Donate';
-import FAQ from './FAQ';
-
 const Header = ({ switchLanguage, language }) => {
   const navigate = useNavigate();
 

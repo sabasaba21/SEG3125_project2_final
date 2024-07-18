@@ -19,7 +19,7 @@ const Home = () => {
 
             {/* langing page*/}
             <div className="home">
-                <img className="landing-page-img" src={afghanGirls} alt="afghan girls in class"></img>
+                <img role = "img" className="landing-page-img" src={afghanGirls} alt="afghan girls in class"></img>
                 <h2 className='text-on-img1' >Investing in Afghan Women and Girls</h2>
                 <h2 className='text-on-img2' > Ensuring Development in Afghanistan</h2>
 
@@ -34,29 +34,29 @@ const Home = () => {
                 <div className="achievements-columns">
                     <div className="achievement-column">
                         <div className="achievement">
-                            <FaSchool className="icon" />
+                            <FaSchool className="icon" aria-label="School icon"/>
                             <p> <strong>6 GIRLS' PRIMARY SCHOOLS</strong> SERVING OVER 3,600 STUDENTS</p>
                         </div>
                         <div className="achievement">
-                            <FaGraduationCap className="icon" />
+                            <FaGraduationCap className="icon" aria-label="Gradutation cap icon"/>
                             <p>TRAINED OVER <strong>400 WOMEN</strong> WITH HIGH SCHOOL DEGREES FOR ADVOCACY AND EMPLOYMENT.</p>
                         </div>
                         <div className="achievement">
-                            <FaUserGraduate className="icon" />
+                            <FaUserGraduate className="icon" aria-label="Graduate icon"/>
                             <p>ORUJ INSTITUTE OF HIGHER EDUCATION <strong>SERVES 900+ STUDENTS</strong> IN MORNING, AFTERNOON, AND EVENING SHIFTS.</p>
                         </div>
                     </div>
                     <div className="achievement-column">
                         <div className="achievement">
-                            <FaChalkboardTeacher className="icon" />
+                            <FaChalkboardTeacher className="icon" aria-label="Teacher & chalkboard icon"/>
                             <p>CONDUCTED <strong>TEACHER TRAINING</strong> WORKSHOPS FOR <strong>174 EDUCATORS</strong></p>
                         </div>
                         <div className="achievement">
-                            <FaBookOpen className="icon" />
+                            <FaBookOpen className="icon" aria-label="open book icon"/>
                             <p><strong>70%</strong> OF GRADUATES <strong>PASSED</strong> THE COLLEGE ENTRANCE EXAM AND PURSUED HIGHER EDUCATION</p>
                         </div>
                         <div className="achievement">
-                            <FaBriefcase className="icon" />
+                            <FaBriefcase className="icon" aria-label="Briefcase icon"/>
                             <p><strong>482</strong> WOMEN AND GIRLS FURTHERING EDUCATION IN <strong>LEADERSHIP</strong>, MANAGEMENT & <strong>BUSINESS ADMINISTRATION</strong></p>
                         </div>
                     </div>
@@ -72,7 +72,7 @@ const Home = () => {
             <div className='services-list'>
                 {/* 1st item: Primary Education */}
                 <Card className="my-card" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={primaryEdu} />
+                    <Card.Img variant="top" src={primaryEdu} alt="image of young girl writing" />
                     <Card.Body>
                         <Card.Title>Primary & Secondary Education</Card.Title>
                         <Card.Text>
@@ -82,11 +82,11 @@ const Home = () => {
                     </Card.Body>
                 </Card>
 
-                {/* 2nd item: Primary Education */}
+                {/* 2nd item: Oruj Community college  */}
                 <Card className="my-card" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={collegeEdu} />
+                    <Card.Img variant="top" src={collegeEdu} alt = "image of women in a classroom"/>
                     <Card.Body>
-                        <Card.Title>Primary & Secondary Education</Card.Title>
+                        <Card.Title>Oruj Community college </Card.Title>
                         <Card.Text>
                             {/* {description} */}
                         </Card.Text>
@@ -94,9 +94,9 @@ const Home = () => {
                     </Card.Body>
                 </Card>
 
-                {/* 3rd item: oruj Community college */}
+                {/* 3rd item: Oruj university */}
                 <Card className="my-card" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={UniversityEdu} />
+                    <Card.Img variant="top" src={UniversityEdu} alt = "Image of a univerity gradution ceremony"/>
                     <Card.Body>
                         <Card.Title>Oruj university</Card.Title>
                         <Card.Text>
@@ -112,7 +112,7 @@ const Home = () => {
 
             <div className="explore-btn">
             <NavLink to="/WhatWeDo">
-            <Button href="/WhatWeDo" variant="primary">
+            <Button role = "button" href="/WhatWeDo" variant="primary">
                     Explore what we do
                 </Button>
             </NavLink>

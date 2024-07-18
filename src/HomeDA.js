@@ -29,7 +29,7 @@ const HomeDA = () => {
                 <div className="achievements-columns">
                     <div className="achievement-column">
                         <div className="achievement">
-                            <p> <strong>6 مدرسه ابتدایی دخترانه</strong> که بیش از 3,600 دانش‌آموز خدمت می‌دهند</p>
+                            <p > <strong>6 مدرسه ابتدایی دخترانه</strong> که بیش از 3,600 دانش‌آموز خدمت می‌دهند</p>
                             <FaSchool className="icon" /> 
                         </div>
                         <div className="achievement">
