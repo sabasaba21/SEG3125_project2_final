@@ -12,18 +12,17 @@ const PaymentInfo = ({ handleNextStep , handlePreviousStep}) => {
 
   const handleSubmit = (event) => {
     const form = event.currentTarget;
+    
     if (form.checkValidity() === false) {
       event.preventDefault();
       event.stopPropagation();
+    } else {
+      handleNextStep(); // Proceed to the next step if form is valid
     }
-
-    setValidated(true);
-
-    if (validated){
-      handleNextStep(); 
-    }
+  
+    setValidated(true); // Update the state to show validation feedback
   };
-
+  
 
   return (
     <div className="donate-subtitle">
@@ -51,6 +50,7 @@ const PaymentInfo = ({ handleNextStep , handlePreviousStep}) => {
             required
             type="text"
             placeholder="Hint: 1234 5678 8900 0000"
+            pattern="[0-9 ]{16|19}"
             
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
@@ -61,14 +61,14 @@ const PaymentInfo = ({ handleNextStep , handlePreviousStep}) => {
       <Row className="mb-6">
         <Form.Group as={Col} md="6" controlId="validationCustom03">
           <Form.Label>Security Code / CVC</Form.Label>
-          <Form.Control type="text" placeholder="City" required />
+          <Form.Control type="text" placeholder="Hint: 123" required pattern="[0-9]{3,4}" />
           <Form.Control.Feedback type="invalid">
-            Please provide a valid CVC. Hint: 123.
+            Please provide a valid CVC. 
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group as={Col} md="6" controlId="validationCustom04">
           <Form.Label>Card Expiration</Form.Label>
-          <Form.Control type="text" placeholder="MM / YYYY" required />
+          <Form.Control type="text" placeholder="MM / YYYY" required  pattern="(0[1-9]|1[0-2])/[0-9 ]{4|5}"/>
           <Form.Control.Feedback type="invalid">
             Please provide a valid date. 
           </Form.Control.Feedback>

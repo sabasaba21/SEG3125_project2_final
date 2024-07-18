@@ -1,5 +1,5 @@
 import './Home.css';
-import './App.css';
+// import './App.css';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { NavLink } from 'react-router-dom';
@@ -16,6 +16,7 @@ import WhatWeDo from './WhatWeDo';
 const Home = () => {
     return (
         <div>
+            
 
             {/* langing page*/}
             <div className="home">
@@ -72,7 +73,7 @@ const Home = () => {
             <div className='services-list'>
                 {/* 1st item: Primary Education */}
                 <Card className="my-card" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={primaryEdu} alt="image of young girl writing" />
+                    <Card.Img variant="top" src={primaryEdu} role = "img"   alt="image of young girl writing" />
                     <Card.Body>
                         <Card.Title>Primary & Secondary Education</Card.Title>
                         <Card.Text>
@@ -84,7 +85,7 @@ const Home = () => {
 
                 {/* 2nd item: Oruj Community college  */}
                 <Card className="my-card" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={collegeEdu} alt = "image of women in a classroom"/>
+                    <Card.Img variant="top" src={collegeEdu} role = "img"  alt = "image of women in a classroom"/>
                     <Card.Body>
                         <Card.Title>Oruj Community college </Card.Title>
                         <Card.Text>
@@ -96,7 +97,7 @@ const Home = () => {
 
                 {/* 3rd item: Oruj university */}
                 <Card className="my-card" style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={UniversityEdu} alt = "Image of a univerity gradution ceremony"/>
+                    <Card.Img variant="top" src={UniversityEdu} role = "img"  alt = "Image of a univerity gradution ceremony"/>
                     <Card.Body>
                         <Card.Title>Oruj university</Card.Title>
                         <Card.Text>

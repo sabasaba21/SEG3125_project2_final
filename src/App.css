@@ -232,7 +232,7 @@ flex-wrap: wrap !important;
 }
 
 .contact-container{
-  margin-top: 100px;
+  margin-top: 0px;
   margin-bottom: 100px;
 
 
@@ -243,7 +243,7 @@ flex-wrap: wrap !important;
 
 .text-center-container {
   text-align: center;
-  margin: 5rem 3rem;
+  margin: 5rem 0rem;
   
 }
 
@@ -352,3 +352,5 @@ flex-wrap: wrap !important;
 
   }
   
+
+

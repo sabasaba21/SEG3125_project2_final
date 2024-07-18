@@ -94,7 +94,7 @@ function YourInformation({ handleNextStep, handlePreviousStep }) {
             </Form.Group>
             <Form.Group as={Col} md="3" controlId="validationCustom05">
               <Form.Label>Postal Code</Form.Label>
-              <Form.Control type="text" placeholder="Zip" required />
+              <Form.Control type="text" placeholder="Zip" required   pattern="[A-Za-z0-9 ]{6|7}"/>
               <Form.Control.Feedback type="invalid">
                 Please provide a valid postal code. Hint: A1A 1A1.
               </Form.Control.Feedback>

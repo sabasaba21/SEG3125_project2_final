@@ -51,7 +51,7 @@ function App() {
             <Route path="/" element={<Home language={language} />} />
             {/* Route for Dari homepage */}
             <Route path="/da" element={<HomeDA language={language} />} />
-
+            <Route path="/about" element={<AboutOruj language={language} />} />
             <Route path="/WhatWeDo" element={<WhatWeDo language={language} />} />
             <Route path="/takeAction" element={<TakeAction language={language} />} />
             <Route path="/contact" element={<Contact language={language} />} />
