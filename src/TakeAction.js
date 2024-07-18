@@ -2,7 +2,6 @@
 import Card from 'react-bootstrap/Card';
 import './App.css';
 import Button from 'react-bootstrap/Button';
-import CollapsibleCard from './CollapsibleCard';
 import { NavLink } from 'react-router-dom';
 
 const TakeAction = () => {
@@ -60,27 +59,27 @@ const TakeAction = () => {
 
             <div className='help-buttons'>
 
-                <div className="contact-btn text-center">
+                <div className="contact-btn text-center" >
                     <div>For further information</div>
 
 
                     <NavLink to="/contact">
-                    <Button href="contact" variant="primary">
-                        Contact us
-                    </Button>
-            </NavLink>
-                    
+                        <Button href="contact" variant="primary" style={{ backgroundColor: ' #427FB5' }}>
+                            Contact us
+                        </Button>
+                    </NavLink>
+
                 </div>
 
-                <div className="donate-btn text-center">
+                <div className="contact-btn text-center">
                     <div>To donate</div>
                     <NavLink to="/donate">
-                    <Button href="donate" variant="primary">
-                        Donate
-                    </Button>
-            </NavLink>
+                        <Button href="donate" variant="primary" style={{ backgroundColor: ' #427FB5' }}>
+                            Donate
+                        </Button>
+                    </NavLink>
 
-                   
+
                 </div>
 
 

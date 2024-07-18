@@ -8,6 +8,7 @@ import { NavLink, useNavigate } from 'react-router-dom';
 import logo from './assets/oruj_logo.jpeg';
 import dari_icon from './assets/dari_icon.png';
 
+
 const Header = ({ switchLanguage, language }) => {
   const navigate = useNavigate();
 
@@ -47,17 +48,17 @@ const Header = ({ switchLanguage, language }) => {
 
 
             <NavLink to="/contact">
-              <Button variant="primary">Contact Us</Button>
+              <Button variant="primary" style={{ backgroundColor: ' #427FB5' }} >Contact Us</Button>
             </NavLink>
             <NavLink to="/donate">
-              <Button variant="primary">Donate</Button>
+              <Button variant="primary" style={{ backgroundColor: ' #427FB5' }} >Donate</Button>
             </NavLink>
           </div>
         </div>
       </Container>
 
       <Navbar className="bg-body-tertiary">
-        <Container style={{ backgroundColor: '#007bff' }}>
+        <Container style={{ backgroundColor: ' #427FB5' }}>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">

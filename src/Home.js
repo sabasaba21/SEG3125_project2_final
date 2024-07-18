@@ -113,7 +113,7 @@ const Home = () => {
 
             <div className="explore-btn">
             <NavLink to="/WhatWeDo">
-            <Button role = "button" href="/WhatWeDo" variant="primary">
+            <Button role = "button" href="/WhatWeDo" variant="primary" style={{ backgroundColor: ' #427FB5' }} >
                     Explore what we do
                 </Button>
             </NavLink>

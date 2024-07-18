@@ -1,5 +1,7 @@
 import React from 'react';
 import Accordion from 'react-bootstrap/Accordion';
+import Button from 'react-bootstrap/Button';
+import { NavLink } from 'react-router-dom';
 import './FAQ.css'; // Import CSS file for styling
 
 function FAQ() {
@@ -64,6 +66,19 @@ function FAQ() {
 
 
             </Accordion>
+
+
+            <div className="contact-btn text-center" >
+                    <div>For further information</div>
+
+
+                    <NavLink to="/contact">
+                    <Button href="contact" variant="primary" style={{ backgroundColor: ' #427FB5' }}>
+                        Contact us
+                    </Button>
+            </NavLink>
+                    
+                </div> 
 
 
 
