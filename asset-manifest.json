@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SEG3125_project2_final/static/css/main.c168b750.css",
+    "main.css": "/SEG3125_project2_final/static/css/main.c8251c76.css",
     "main.js": "/SEG3125_project2_final/static/js/main.f6dea157.js",
     "static/js/453.ed3810f9.chunk.js": "/SEG3125_project2_final/static/js/453.ed3810f9.chunk.js",
     "static/media/young_girls.webp": "/SEG3125_project2_final/static/media/young_girls.6a36c61207c75d9eddee.webp",
@@ -11,12 +11,12 @@
     "static/media/oruj_logo.jpeg": "/SEG3125_project2_final/static/media/oruj_logo.55c2f6544dba5e3f26dd.jpeg",
     "static/media/primary_edu_img.webp": "/SEG3125_project2_final/static/media/primary_edu_img.f936d6f3971be222fe50.webp",
     "index.html": "/SEG3125_project2_final/index.html",
-    "main.c168b750.css.map": "/SEG3125_project2_final/static/css/main.c168b750.css.map",
+    "main.c8251c76.css.map": "/SEG3125_project2_final/static/css/main.c8251c76.css.map",
     "main.f6dea157.js.map": "/SEG3125_project2_final/static/js/main.f6dea157.js.map",
     "453.ed3810f9.chunk.js.map": "/SEG3125_project2_final/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c168b750.css",
+    "static/css/main.c8251c76.css",
     "static/js/main.f6dea157.js"
   ]
 }
