@@ -1,0 +1,61 @@
+/* FAQ.css */
+
+/* FAQ.css */
+
+/* Style FAQ heading */
+h2 {
+    color: #333;
+    text-align: center;
+
+    margin-top: 5rem !important;
+  }
+
+  h4{
+    color: #333;
+    text-align: left;
+
+    margin-top: 2rem !important;
+    margin-left: 2rem !important;
+  }
+  
+  /* Style FAQ description */
+  h5 {
+    color: #666;
+    text-align: center;
+    padding: 0px 200px !important;
+    white-space:pre-line;
+  }
+  
+
+.accordion-all{
+    width: 1000px;
+    height: auto;
+
+    margin-left: 250px;
+    margin-right: 100px;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+.accordion-header {
+    font-weight: bolder !important;
+    background-color: #f0f0f0;
+    color: black;
+    cursor: pointer;
+    border: 2px solid  #007bff  !important;
+    
+  }
+  
+  .accordion-body {
+    background-color: #fff;
+    /* padding: 15px; */
+    border: 1px solid #ddd;
+    text-align: left;
+    
+  }
+.accordion-item{
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+ 
+  

@@ -65,7 +65,7 @@
 }
 
 .switch-lang-icon{
-  height: 15px;
+  height: 25px;
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -246,3 +246,104 @@ flex-wrap: wrap !important;
 .text-center-container h2 {
   margin: 0 auto;
 }
+
+.not-found{
+  text-align: center;
+}
+
+
+
+.text-on-img1,
+.text-on-img2 {
+  
+  text-align: left; 
+}
+
+.achievements-container {
+  margin-top: 100px; 
+
+}
+
+.achievements-container h2 {
+  text-align: left; 
+  margin-bottom: 50px !important;
+
+}
+
+.achievement-column {
+  justify-content: space-between;
+  text-align: left !important; 
+
+}
+
+.achievement {
+
+  align-items: left !important;
+  justify-content: left;
+}
+
+.icon {
+  margin-right: 10px; 
+
+}
+
+.achievement p {
+  text-align: left !important; 
+
+}
+
+
+.my-card .card-body {
+  text-align: left; 
+}
+
+.my-card-button {
+  text-align: left; 
+}
+
+
+
+/* Dari Page */
+  
+.home-da .text-on-img1,
+.home-da .text-on-img2 {
+    
+    text-align: right; 
+  }
+  
+  .home-da .achievements-container {
+    margin-top: 100px; 
+ 
+  }
+  
+  .home-da .achievements-container h2 {
+    text-align: right; 
+    margin-bottom: 50px;
+  }
+  
+  .home-da .achievement-column {
+    justify-content: space-between !important;
+    text-align: right !important; 
+
+  }
+  
+  .home-da .achievement {
+    /* display: flex; */
+    align-items: right !important;
+    /* margin-bottom: 10px; */
+    justify-content: right;
+   
+  }
+  
+  home-da .icon {
+    margin-right: 10px; 
+    margin-left: 20px;
+    
+  }
+  
+  .home-da .achievement p {
+    text-align: right !important; 
+    margin-right: 15px;
+
+  }
+  

@@ -16,31 +16,51 @@ import WhatWeDo from './WhatWeDo';
 import TakeAction from './TakeAction';
 import Contact from './Contact';
 import Donate from './Donate';
+import FAQ from './FAQ';
+import NotFound from "./NotFound";
 
 
+import React, { useState } from 'react';
+
+// Pages in dari
+import HomeDA from './HomeDA';
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import { Footer } from './footer';
+
 
 
 function App() {
+  const [language, setLanguage] = useState('en'); // Default language is English
 
+  const switchLanguage = () => {
+    setLanguage(language === 'en' ? 'da' : 'en'); // Toggle between English ('en') and Dari ('da')
+  };
+  
   return (
-    <Router basename="/SEG3125_project2">
+    <Router basename="/SEG3125_project2_final">
     <div className="App">
-      <Header />
+      {/* <Header /> */}
+
+      <Header switchLanguage={switchLanguage} language={language} />
+
 
       <main className="content">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<AboutOruj />} />
-          <Route path="/WhatWeDo" element={<WhatWeDo />} />
-          <Route path="/takeAction" element={<TakeAction />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/donate" element={<Donate />} />
-        </Routes>
-      </main>
+          <Routes>
+            {/* Route for English homepage */}
+            <Route path="/" element={<Home language={language} />} />
+            {/* Route for Dari homepage */}
+            <Route path="/da" element={<HomeDA language={language} />} />
+
+            <Route path="/WhatWeDo" element={<WhatWeDo language={language} />} />
+            <Route path="/takeAction" element={<TakeAction language={language} />} />
+            <Route path="/contact" element={<Contact language={language} />} />
+            <Route path="/donate" element={<Donate language={language} />} />
+            <Route path="/FAQ" element={<FAQ language={language} />} />
+
+            <Route path="*" element={<NotFound language={language} />} />
+          </Routes>
+        </main>
 
       <Footer />
     </div>

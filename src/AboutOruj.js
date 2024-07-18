@@ -1,9 +1,9 @@
-const AboutOruj = () => {
-    return(
+// const AboutOruj = () => {
+//     return(
 
-        <h2></h2>
-    );
+//         <h2></h2>
+//     );
 
-}
+// }
 
-export default AboutOruj;
+// export default AboutOruj;

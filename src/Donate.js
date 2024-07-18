@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import StepProgressBar from './StepProgressBar';
 import DonationAmount from './DonationAmount';
 import YourInformation from './YourInformation';
@@ -8,22 +7,24 @@ import Confirm from './Confirm';
 import './Donate.css';
 
 const steps = [
-    'donationAmount',
-    'yourInformation',
-    'paymentInfo',
-    'confirm',
-  ];
-//   const handleStepChange = (step) => {
-//     setCurrentStep(step);
-//     navigate(`/${step}`);
-//   };
+  'donationAmount',
+  'yourInformation',
+  'paymentInfo',
+  'confirm',
+];
 
 const Donate = () => {
-    const [currentStepIndex, setCurrentStepIndex] = useState(0);
+  const [currentStepIndex, setCurrentStepIndex] = useState(0);
 
   const handleNextStep = () => {
     if (currentStepIndex < steps.length - 1) {
       setCurrentStepIndex(currentStepIndex + 1);
+    }
+  };
+
+  const handlePreviousStep = () => {
+    if (currentStepIndex > 0) {
+      setCurrentStepIndex(currentStepIndex - 1);
     }
   };
 
@@ -32,11 +33,11 @@ const Donate = () => {
       case 'donationAmount':
         return <DonationAmount handleNextStep={handleNextStep} />;
       case 'yourInformation':
-        return <YourInformation handleNextStep={handleNextStep} />;
+        return <YourInformation handleNextStep={handleNextStep} handlePreviousStep={handlePreviousStep} />;
       case 'paymentInfo':
-        return <PaymentInfo handleNextStep={handleNextStep} />;
+        return <PaymentInfo handleNextStep={handleNextStep} handlePreviousStep={handlePreviousStep} />;
       case 'confirm':
-        return <Confirm handleNextStep={handleNextStep} />;
+        return <Confirm handleNextStep={handleNextStep} handlePreviousStep={handlePreviousStep} />;
       default:
         return null;
     }
@@ -47,8 +48,7 @@ const Donate = () => {
       <StepProgressBar currentStep={steps[currentStepIndex]} />
       {renderStepComponent()}
     </div>
-    );
+  );
 }
-  
 
 export default Donate;
