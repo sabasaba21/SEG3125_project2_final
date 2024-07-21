@@ -10,7 +10,7 @@
   
   .text-on-img1{
     position:absolute; 
-    top: 60%; 
+    top: 350px; 
     left: 25%; 
     color:black;
     background-color: white;
@@ -20,7 +20,7 @@
   
   .text-on-img2{
     position:absolute; 
-    top: 70%; 
+    top: 450px; 
     left: 35%; 
     color:black;
     background-color: white;
@@ -94,7 +94,7 @@
 .about-oruj-img h1{
 
     position:absolute; 
-    top: 60%; 
+    top: 500px; 
     left: 40%;
     right: 40%; 
     color:black;
