@@ -93,7 +93,7 @@ const HomeDA = () => {
             {/* Explore button */}
             <div className="explore-btn">
                 <NavLink to="/WhatWeDo">
-                    <Button href="/WhatWeDo" variant="primary">
+                    <Button href="/WhatWeDo" variant="primary" style={{ backgroundColor: ' #427FB5' }} >
                         کشف آنچه ما انجام می‌دهیم
                     </Button>
                 </NavLink>

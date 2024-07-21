@@ -33,17 +33,13 @@ const Header = ({ switchLanguage, language }) => {
 
         <div className="d-flex">
           <div className='help-buttons'>
-            {/* <Nav.Link className="switch-lang" href="#home">درى پښتو
-              <img className="switch-lang-icon" src={dari_icon} alt="Change language" />
-            </Nav.Link> */}
-
-
-<div className="switch-lang">
-        <button onClick={handleSwitchLanguage} className={language === 'en' ? 'active' : ''}>
-          {languageText}
-          <img className="switch-lang-icon" src={languageIcon} alt={`Change language to ${languageText}`} />
-        </button>
-      </div>
+            
+            <div className="switch-lang">
+              <button onClick={handleSwitchLanguage} className={language === 'en' ? 'active' : ''}>
+                {languageText}
+                <img className="switch-lang-icon" src={languageIcon} alt={`Change language to ${languageText}`} />
+              </button>
+            </div>
 
 
 
@@ -67,7 +63,7 @@ const Header = ({ switchLanguage, language }) => {
               <NavLink className="nav-link" to="/WhatWeDo">What We Do</NavLink>
               <NavLink className="nav-link" to="/takeAction">Take Action</NavLink>
               <NavLink className="nav-link" to="/FAQ">FAQ</NavLink>
-              
+
 
             </Nav>
           </Navbar.Collapse>
