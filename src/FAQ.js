@@ -55,13 +55,13 @@ function FAQ() {
                         We are a women-only institution dedicated to empowering women through education.        </Accordion.Body>
                 </Accordion.Item>
 
-                
+
 
                 <Accordion.Item className="accordion-item" eventKey="5">
                     <Accordion.Header className="accordion-header">Do you need volunteers? If so, what positions are available for them?</Accordion.Header>
                     <Accordion.Body className="accordion-body">
-                    We welcome volunteers to support various initiatives such as mentoring, events, and community outreach. Positions vary based on current needs and projects.
-       </Accordion.Body>
+                        We welcome volunteers to support various initiatives such as mentoring, events, and community outreach. Positions vary based on current needs and projects.
+                    </Accordion.Body>
                 </Accordion.Item>
 
 
@@ -69,16 +69,16 @@ function FAQ() {
 
 
             <div className="contact-btn text-center" >
-                    <div>For further information</div>
+                <div>For further information</div>
 
 
-                    <NavLink to="/contact">
+                <NavLink to="/contact">
                     <Button href="contact" variant="primary" style={{ backgroundColor: ' #427FB5' }}>
                         Contact us
                     </Button>
-            </NavLink>
-                    
-                </div> 
+                </NavLink>
+
+            </div>
 
 
 

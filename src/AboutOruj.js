@@ -1,5 +1,7 @@
 import './Home.css';
-import girlsImg from './assets/young_girls.webp';
+import Button from 'react-bootstrap/Button';
+import { NavLink } from 'react-router-dom';
+import womenStudying from './assets/women_studying.png';
 
 const AboutOruj = () => {
     return (
@@ -7,7 +9,7 @@ const AboutOruj = () => {
         <div>
 
             <div className="about-oruj-img">
-                <img className="landing-page-img" role="img" src={girlsImg} alt="afghan girls in class"></img>
+                <img className="landing-page-img" role="img" src={womenStudying} alt="afghan girls in class"></img>
                 <h1>About Oruj </h1>
 
             </div>
@@ -43,6 +45,17 @@ const AboutOruj = () => {
 
 
 
+            <div className="contact-btn text-center" >
+                <div>For further information</div>
+
+
+                <NavLink to="/contact">
+                    <Button href="contact" variant="primary" style={{ backgroundColor: ' #427FB5' }}>
+                        Contact us
+                    </Button>
+                </NavLink>
+
+            </div>
 
 
 

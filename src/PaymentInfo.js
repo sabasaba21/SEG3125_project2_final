@@ -35,25 +35,28 @@ const PaymentInfo = ({ handleNextStep , handlePreviousStep}) => {
         
       <Row className="mb-8">
         <Form.Group as={Col} md="8" controlId="validationCustom01">
-          <Form.Label>Cardholder name</Form.Label>
+          <Form.Label>Card Holder Name</Form.Label>
           <Form.Control
             required
             type="text"
-            placeholder="cardholder name"
+            placeholder="card holder name"
        
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
         </Form.Group>
         <Form.Group as={Col} md="8" controlId="validationCustom02">
-          <Form.Label>Credit Card Numner</Form.Label>
+          <Form.Label>Credit Card Number</Form.Label>
           <Form.Control
             required
             type="text"
             placeholder="Hint: 1234 5678 8900 0000"
-            pattern="[0-9 ]{16|19}"
+            pattern="[0-9 ]{16,19}"
             
           />
           <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
+          <Form.Control.Feedback type="invalid">
+            Please provide a valid card number. 
+          </Form.Control.Feedback>
         
         </Form.Group>
      

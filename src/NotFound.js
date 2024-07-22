@@ -8,7 +8,7 @@ function NotFound() {
       <p>The link you followed may be broken, or the page may have been removed.</p>
 
 
-      <Button className = "help-buttons" variant="primary" type="button" href ="/SEG3125_project2_final">
+      <Button className = "help-buttons" variant="primary" type="button" href ="/SEG3125_project2_final" style={{ backgroundColor: ' #427FB5' }}>
           Go to homepage
         </Button>
     </div>

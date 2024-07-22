@@ -118,15 +118,18 @@ function WhatWeDo() {
     return (
         <Container fluid ="true">
             <Row>
-                <Col md={3}>
+                <Col md={3} >
                     <Sidebar 
                         categories={categories} 
                         selectedOptions={selectedOptions} 
                         handleOptionChange={handleOptionChange}
                     />
                 </Col>
-                <Col md={9}>
-                    <Row>
+                
+                <Col md={9} >
+                <h2 className = "page-title" styles='text-align: center; margin-top: 20px;'>What we do</h2>
+
+                    <Row >
                         {renderItems()}
                     </Row>
                 </Col>

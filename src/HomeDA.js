@@ -97,6 +97,13 @@ const HomeDA = () => {
                         کشف آنچه ما انجام می‌دهیم
                     </Button>
                 </NavLink>
+
+
+                <NavLink to="/TakeAction">
+                <Button role = "button" href="/TakeAction" variant="primary" style={{ backgroundColor: ' #427FB5' }} >
+                اقدام کنید
+                </Button>
+            </NavLink>
             </div>
         </div>
     );

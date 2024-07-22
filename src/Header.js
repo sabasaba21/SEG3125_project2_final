@@ -44,7 +44,7 @@ const Header = ({ switchLanguage, language }) => {
 
 
             <NavLink to="/contact">
-              <Button variant="primary" style={{ backgroundColor: ' #427FB5' }} >Contact Us</Button>
+              <Button variant="primary" style={{ backgroundColor: ' #427FB5' }} >Contact</Button>
             </NavLink>
             <NavLink to="/donate">
               <Button variant="primary" style={{ backgroundColor: ' #427FB5' }} >Donate</Button>

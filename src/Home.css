@@ -48,6 +48,8 @@
 
     margin-top: 20px; 
     margin-bottom: 5rem;
+    /* justify-content: space-between; */
+    gap: 50px;
 }
 
 .achievements-container {

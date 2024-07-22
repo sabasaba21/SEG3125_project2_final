@@ -12,6 +12,7 @@ import collegeEdu from './assets/college_img.webp';
 import UniversityEdu from './assets/university_img.webp';
 
 import WhatWeDo from './WhatWeDo';
+import TakeAction from './TakeAction';
 
 const Home = () => {
     return (
@@ -115,6 +116,13 @@ const Home = () => {
             <NavLink to="/WhatWeDo">
             <Button role = "button" href="/WhatWeDo" variant="primary" style={{ backgroundColor: ' #427FB5' }} >
                     Explore what we do
+                </Button>
+            </NavLink>
+
+            
+            <NavLink to="/TakeAction">
+            <Button role = "button" href="/TakeAction" variant="primary" style={{ backgroundColor: ' #427FB5' }} >
+                    Take Action
                 </Button>
             </NavLink>
                 

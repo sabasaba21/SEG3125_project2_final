@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const TakeAction = () => {
     return (
         <div className='take-action'>
-            <h3 styles='text-align: center'>Take Action: We Know You Can Make a Difference! </h3>
+            <h2 className = "page-title" styles='text-align: center'>Take Action: We Know You Can Make a Difference! </h2>
             <div className='services-list'>
                 {/* 1st item: Make a gift */}
                 <Card className="my-card" >

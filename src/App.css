@@ -40,6 +40,9 @@
   align-items: center;
   margin: 0 15px;
   background-color: #427FB5 !important;
+  gap: 50px;
+  font-size: 20px;
+  
 
 
 }
@@ -108,13 +111,22 @@
   margin-top: 40px !important;
   margin-bottom: 40px !important;
   margin-left: 0px !important;
+  
 
 }
 
 .faceted-search-item {
   margin-bottom: 5rem !important;
+  
 }
 
+.page-title{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  font-weight: bold;
+
+}
 h3 {
   margin: 0;
   font-size: 1.25rem;
